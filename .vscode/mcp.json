@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "mcp-weather-server": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "tsx",
+        "main.ts"
+      ]
+    }
+  },
+  "inputs": []
+}
